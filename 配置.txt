@@ -1,0 +1,22 @@
+配置
+git config --global user.name 窗外寒星
+git config --global user.email lxg200313@126.com
+
+
+查看配置信息
+git config --list
+
+提交步骤
+初始化git仓库
+git init
+查看文件状态
+git status
+文件列表，追踪文件
+git add
+提交信息 向仓库中提交代码
+git commit -m
+查看提交记录
+git log
+
+恢复记录
+git rest --hard commitID
